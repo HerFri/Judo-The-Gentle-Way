@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "SDAsian";
+    src: url(assets/fonts/sdasian.ttf);
+}
+
+section {
+    display: block;
+}
+
+p {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    @font-face{
+        font-family: "SDAsian";
+        src: url(assets/fonts/sdasian.ttf); }
+    
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 5vw;
+    line-height: 25vw;
+    min-width: 100px;
+}
+
+
+
+.header {
+    height: 27vw;
+    background-image: url("/assets/backgrounds/japan2.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -75v;
+}
+
+li {
+    font-size: 2vw
+}
+
+
+.japan {
+    
+}
+
+.vid-container {
+        position: relative;
+        overflow: hidden;
+        width: 80%;
+        height: 40%;
+        left: 30%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+  }
