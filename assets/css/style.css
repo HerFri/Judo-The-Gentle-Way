@@ -1,6 +1,6 @@
 @font-face {
     font-family: "samurai";
-    src: url("/assets/fonts/samurai.otf");
+    src: url("assets/fonts/samurai.otf");
 }
 
 h1 {
@@ -23,7 +23,7 @@ p {
 
 .header {
     height: 20vw;
-    background-image: url("/assets/backgrounds/japan2.jpg");
+    background-image: url("assets/backgrounds/japan2.jpg");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position-x: center;
