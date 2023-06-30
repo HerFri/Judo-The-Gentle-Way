@@ -1,6 +1,15 @@
-@font-face{
-    font-family: "SDAsian";
-    src: url(assets/fonts/sdasian.ttf);
+@font-face {
+    font-family: "samurai";
+    src: url("/assets/fonts/samurai.otf");
+}
+
+h1 {
+    text-align: center;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 5vw;
+    line-height: 25vw;
+    min-width: 100px;
+    font-family: "samurai";
 }
 
 section {
@@ -10,19 +19,6 @@ section {
 p {
     color: red;
 }
-
-h1 {
-    text-align: center;
-    @font-face{
-        font-family: "sdasian";
-        src: url(assets/fonts/sdasian.ttf); }
-    
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 5vw;
-    line-height: 25vw;
-    min-width: 100px;
-}
-
 
 
 .header {
@@ -39,9 +35,6 @@ li {
 }
 
 
-.japan {
-    
-}
 
 .vid-container {
         position: relative;
