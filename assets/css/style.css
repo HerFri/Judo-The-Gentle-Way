@@ -13,10 +13,10 @@ h1 {
     font-size: 5vw;
     line-height: 25vw;
     min-width: 100px;
-    font-family: "samurai";
+    font-family: "samurai", sans-serif;
 }
 
-p { font-family: "shadow";
+p { font-family: "shadow", sans-serif;
     font-weight: bold;
     font-size: 2rem;
 
