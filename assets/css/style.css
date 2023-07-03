@@ -16,11 +16,6 @@ section {
     display: block;
 }
 
-p {
-    color: red;
-}
-
-
 .header {
     height: 20vw;
     background-image: url("../backgrounds/japan2.jpg");
@@ -65,3 +60,37 @@ nav {
     justify-content: center;
 
 }
+
+#div1   {
+    display: inline-block;
+    width: 33%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+#blackbelt {
+    width: 33%;
+    height: 30vw;
+}
+
+#judologo {
+    width: 12vw;
+    float: right;
+    margin: 50px;
+}
+
+#info {
+    border: 1px solid;
+    padding: 30px;
+    margin: 5px;
+}
+
+/* .responsive.img {
+    width: 100%;
+    height: auto;
+} --> /*
+
