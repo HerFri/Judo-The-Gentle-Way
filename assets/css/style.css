@@ -62,18 +62,18 @@ li {
 nav li { 
     float: right;
     margin: 40px;
-}
+    list-style-type: none;
+} 
 
 nav { 
     display: flex;
     justify-content: center;
+} 
 
-}
-
-#div1   {
+/*#div1   {
     display: inline-block;
     width: 33%;
-}
+} */
 
 .container {
     display: flex;
@@ -97,6 +97,9 @@ nav {
     padding: 30px;
     margin: 5px;
 }
+
+
+
 
 /* .responsive.img {
     width: 100%;
