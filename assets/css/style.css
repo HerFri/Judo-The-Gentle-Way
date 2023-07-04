@@ -38,23 +38,6 @@ h1 {
 #navi a:hover {
     text-decoration: underline;
 }
-/* nav { 
-    display: flex;
-    justify-content: center;
-} 
-
-nav li { 
-    float: right;
-    margin: 40px;
-    list-style-type: none;
-} 
-
-li {
-    font-size: 2vw;
-}
-
-*/
-
 
 p { font-family: "shadow", sans-serif;
     font-weight: bold;
@@ -75,8 +58,6 @@ section {
 }
 
 
-
-
 .vid-container {
         position: relative;
         overflow: hidden;
@@ -95,7 +76,6 @@ section {
     width: 50%;
     height: 50%;
 }
-
 
 
 /*#div1   {
