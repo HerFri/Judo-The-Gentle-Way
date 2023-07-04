@@ -51,9 +51,16 @@ h1 {
     height: 35vw;
 }
 
+.textcenter {
+    text-align: center
+}
+
 #judologo {
+    position: relative;
     width: 12vw;
     margin-left: 3%;
+    height: 35vw;
+    top: 2vw;
 }
 
 #info {
