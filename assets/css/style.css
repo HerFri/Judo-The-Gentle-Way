@@ -29,6 +29,15 @@ h1 {
     margin: 15px;
     font-family: "samurai", sans-serif;
 }
+
+#navi a {
+    text-decoration: none;
+    color: black;
+}
+
+#navi a:hover {
+    text-decoration: underline;
+}
 /* nav { 
     display: flex;
     justify-content: center;
@@ -108,7 +117,7 @@ section {
 #judologo {
     width: 12vw;
     float: right;
-    margin: 50px;
+    margin-left: 50px;
 }
 
 #info {
