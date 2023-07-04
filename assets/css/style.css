@@ -83,6 +83,11 @@ section {
     display: block;
 }
 
+#h1history {
+    position: relative;
+    bottom: 30vw;
+}
+
 .header {
     height: 20vw;
     background-image: url("../backgrounds/japan2.jpg");
@@ -114,7 +119,7 @@ section {
 
 #hr1 {
     position: relative;
-    bottom: 25vw;
+    bottom: 20vw;
 }
 
 /*#div1   {
