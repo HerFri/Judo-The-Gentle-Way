@@ -122,6 +122,13 @@ section {
     bottom: 20vw;
 }
 
+#jigoro {
+    position: relative;
+    width: 45vw;
+    height: 55vw;
+    bottom: 30vw
+}
+
 /*#div1   {
     display: inline-block;
     width: 33%;
