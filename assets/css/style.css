@@ -53,14 +53,14 @@ h1 {
 
 #judologo {
     width: 12vw;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 #info {
     border: 1px solid;
     padding: 2vw;
     margin: 1vw;
-    justify-content: center;
+    width: 50%;
 }
 p { font-family: "shadow", sans-serif;
     font-weight: bold;
