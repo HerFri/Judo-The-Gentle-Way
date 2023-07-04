@@ -39,9 +39,32 @@ h1 {
     text-decoration: underline;
 }
 
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+#blackbelt {
+    position: relative;
+    width: 25vw;
+    height: 35vw;
+}
+
+#judologo {
+    width: 12vw;
+    margin-left: 1%;
+}
+
+#info {
+    border: 1px solid;
+    padding: 2vw;
+    margin: 1vw;
+    justify-content: center;
+}
 p { font-family: "shadow", sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2vw;
 
 }
 section {
@@ -83,28 +106,7 @@ section {
     width: 33%;
 } */
 
-.container {
-    display: flex;
-    width: 100%;
-    height: auto;
-}
 
-#blackbelt {
-    width: 33%;
-    height: 30vw;
-}
-
-#judologo {
-    width: 12vw;
-    float: right;
-    margin-left: 50px;
-}
-
-#info {
-    border: 1px solid;
-    padding: 30px;
-    margin: 5px;
-}
 
 
 
