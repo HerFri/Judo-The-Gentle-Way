@@ -1,13 +1,3 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-      font-size: 10vw;
-    }
-    #h1head {
-        font-size: 20vw;
-    }
-  }
-
 @font-face {
     font-family: "samurai";
     src: url("../fonts/samurai.otf");
@@ -17,17 +7,12 @@
     font-family: "shadow";
     src: url("../fonts/shadow.ttf");
 }
-
-#h1head {
+h1 {
     text-align: center;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 5vw;
     line-height: 25vw;
     min-width: 100px;
-    font-family: "samurai", sans-serif;
-}
-
-h1 {
     font-family: "samurai", sans-serif;
 }
 
@@ -98,6 +83,11 @@ section {
     display: block;
 }
 
+#h1history {
+    position: relative;
+    bottom: 30vw;
+}
+
 .header {
     height: 21vw;
     background-image: url("../backgrounds/japan2.jpg");
@@ -106,6 +96,7 @@ section {
     background-position-x: center;
     background-position-y: -75v;
 }
+
 
 .vid-container {
         position: relative;
@@ -126,22 +117,18 @@ section {
     height: 50%;
 }
 
-#h1his {
-    text-align: center;
-    font-size: 5vw;
-
+#hr1 {
+    position: relative;
+    bottom: 20vw;
 }
 
 #jigoro {
-    width: 20vw;
-    margin-left: 10%;
+    position: relative;
+    width: 45vw;
+    height: 55vw;
+    bottom: 30vw
 }
 
-#jigorotext {
-    position: relative;
-    margin-left: 16vw;
-    bottom: 2vw;
-} 
 /*#div1   {
     display: inline-block;
     width: 33%;
