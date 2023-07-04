@@ -72,7 +72,12 @@ h1 {
 p { font-family: "shadow", sans-serif;
     font-weight: bold;
     font-size: 2vw;
+}
 
+#guide {
+    position: relative;
+    margin-left: 7%;
+    top: 20vw;
 }
 section {
     display: block;
