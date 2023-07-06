@@ -40,7 +40,7 @@
     } 
 
     #blackbelt {
-        width: 50px;
+        width: 50%;
     }
 }
 
@@ -78,7 +78,7 @@ h1 {
 
 body {
     max-width: 100%;
-    overflow-x: hidden;
+/*    overflow-x: hidden; */
 }
 
 .wrapper {
@@ -91,11 +91,14 @@ body {
 
 
 #blackbelt {
-    width: 50%;
+    width: 100%;
 }
 
 #judologo {
-    width: 50%;
+    width: 100%;
+    bottom: 80%;
+
+    
 } 
 
 .textcenter {
@@ -111,7 +114,6 @@ body {
 #info {
     border: 3px solid;
     padding: 2vw;
-    margin: 1vw;
     width: 100%;
 }
 
