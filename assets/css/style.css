@@ -112,9 +112,10 @@ body {
 
 
 #info {
-    border: 3px solid;
+    border: 1px solid;
     padding: 2vw;
     width: 100%;
+    border-radius: 10px;
 }
 
 p { font-family: "shadow", sans-serif;
@@ -172,11 +173,26 @@ p { font-family: "shadow", sans-serif;
 }
 
 #jigoro {
-    position: relative;
-    width: 45vw;
-    height: 55vw;
-    bottom: 30vw
+    position: absolute;
+    left: 40px;
+    top: 2500px;
+    width: 500px;
+    border: solid 8px;
+    border-radius: 10px;
 }
+
+#jigoinfo {
+    position: absolute;
+    top: 2450px;
+    width: 100%;
+}
+.jigoro {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
 
 /*#div1   {
     display: inline-block;
