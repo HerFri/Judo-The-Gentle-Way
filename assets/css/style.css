@@ -114,12 +114,6 @@ body {
     text-align: center;
 }
 
-/* .aside2{
-    float: right;
-} */
-
-
-
 #info {
     border: 2px solid;
     padding: 2vw;
@@ -138,14 +132,12 @@ p { font-family: "shadow", sans-serif;
     top: 20vw;
 }
 
-/*section {
-    display: block;
-} */
 
 #h1history {
     position: relative;
     bottom: 30vw;
 }
+
 
 .header {
     height: 21vw;
@@ -209,21 +201,3 @@ p { font-family: "shadow", sans-serif;
     justify-content: space-evenly;
     align-items: inherit;
 }
-
-
-
-/*#div1   {
-    display: inline-block;
-    width: 33%;
-} */
-
-
-
-
-
-
-/* .responsive.img {
-    width: 100%;
-    height: auto;
-} --> /*
-
