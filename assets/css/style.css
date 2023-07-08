@@ -184,7 +184,12 @@ p { font-family: "shadow", sans-serif;
 
 #hr2 {
     position: relative;
-    bottom: 30vw
+    bottom: 30vw;
+}
+
+#hr3 {
+    position: relative;
+    bottom: 35vw;
 }
 
 #jigoro {
