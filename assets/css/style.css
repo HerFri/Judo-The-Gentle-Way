@@ -138,6 +138,11 @@ p { font-family: "shadow", sans-serif;
     bottom: 30vw;
 }
 
+#h1philo {
+    position: relative;
+    bottom: 40vw
+}
+
 
 .header {
     height: 21vw;
@@ -173,6 +178,11 @@ p { font-family: "shadow", sans-serif;
     bottom: 20vw;
 }
 
+#hr2 {
+    position: relative;
+    bottom: 30vw
+}
+
 #jigoro {
     position: relative;
     width: 30%;
@@ -195,4 +205,44 @@ p { font-family: "shadow", sans-serif;
 
 .jigoro {
     display: flex;
+}
+
+#handshake {
+    position: relative;
+    bottom: 50vw;
+    width: 30vw;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    float: right;
+}
+
+#philoinfo {
+    position: relative;
+    bottom: 50vw;
+    border: solid 2px;
+    border-radius: 10px;
+    width: 1000%;
+    padding: 2vw;
+    margin: 0;
+}
+
+#randori {
+    position: relative;
+    width: 35%;
+    bottom: 45vw;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+
+
+#footer {
+
+
+
+}
+
+#wrap {
+  
 }
