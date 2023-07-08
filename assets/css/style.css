@@ -233,8 +233,18 @@ p { font-family: "shadow", sans-serif;
     bottom: 45vw;
     border: solid 2px;
     border-radius: 10px;
+    margin-right: 2vw;
 }
 
+#randoriinfo {
+    position: relative;
+    padding: 2vw;
+    bottom: 45vw;
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 0;
+    width: 100%;
+}
 
 
 #footer {
