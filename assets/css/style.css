@@ -177,10 +177,6 @@ p { font-family: "shadow", sans-serif;
     position: relative;
     width: 30%;
     bottom: 40vw;
-/*   left: 40px;
-    top: 2500px;
-    width: 500px; */
-    margin-left: 5vw;
     margin-right: 2vw;
     border: solid 2px;
     border-radius: 10px; 
@@ -188,13 +184,12 @@ p { font-family: "shadow", sans-serif;
 
 #jigoinfo {
     position: relative;
-    bottom: 42vw;
-    margin-left: 1vw;
+    bottom: 40vw;
     border: solid 2px;
     border-radius: 10px;
-    margin-right: 2vw;
     padding: 2vw;
     width: 100%;
+    margin: 0;
  
 }
 
