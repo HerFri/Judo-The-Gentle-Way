@@ -58,12 +58,18 @@ a {
     color: black;
 }
 
-h1 {
+#h1head {
     text-align: center;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 5vw;
     line-height: 25vw;
     min-width: 100px;
+    font-family: "samurai", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
     font-family: "samurai", sans-serif;
 }
 
@@ -90,10 +96,12 @@ h1 {
     text-decoration: underline;
 }
 
-body {
+/* body {
     max-width: 100%;
     overflow-x: hidden; 
-}
+} */
+
+
 
 .wrapper {
     display: flex;
@@ -105,15 +113,66 @@ body {
 
 
 #blackbelt {
-    width: 100%;
+    width: 15vw;
 }
 
 #judologo {
     width: 100%;
-    bottom: 80%;
-
-    
+    bottom: 80%;   
 } 
+
+#jigoro {
+    width: 40%;
+    margin-right: 2vw;
+    border: solid 2px;
+    border-radius: 10px; 
+}
+
+#handshake {
+    width: 40%;
+    bottom: 50vw;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-left: 2vw;
+}
+
+#randori {
+    width: 40%;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+
+#jigoinfo {
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 2vw;
+    width: 100%;
+    margin: 0;
+}
+
+#philoinfo {
+    border: solid 2px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 2vw;
+    margin: 0;
+}
+
+#randoriinfo {
+    padding: 2vw;
+    bottom: 45vw;
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 0;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.flex {
+    display: flex;
+}
 
 .textcenter {
     text-align: center;
@@ -131,11 +190,14 @@ p { font-family: "shadow", sans-serif;
     font-size: 2vw;
 }
 
-#guide {
-    position: relative;
-    margin-left: 7%;
-    top: 20vw;
+/*#guide {
+    margin-right: 400px;
 }
+
+.guidevideo {
+    display: flex;
+    justify-content: center;
+} 
 
 
 #h1history {
@@ -146,7 +208,7 @@ p { font-family: "shadow", sans-serif;
 #h1philo {
     position: relative;
     bottom: 40vw
-}
+} */
 
 
 .header {
@@ -157,27 +219,26 @@ p { font-family: "shadow", sans-serif;
     background-position-x: center;
 }
 
+hr {
+    margin-top: 8vw;
+}
 
-.vid-container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        height: 40%;
-        left: 25%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+/* .vid-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 56.25%
 }
 
 .responsive-iframe {
-    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    width: 50%;
+    width: 100%;
     height: 50%;
-}
+} */
 
-#hr1 {
+/* #hr1 {
     position: relative;
     bottom: 20vw;
 }
@@ -192,68 +253,17 @@ p { font-family: "shadow", sans-serif;
     bottom: 35vw;
 }
 
-#jigoro {
-    position: relative;
-    width: 30%;
-    bottom: 40vw;
-    margin-right: 2vw;
-    border: solid 2px;
-    border-radius: 10px; 
-}
 
-#jigoinfo {
-    position: relative;
-    bottom: 40vw;
-    border: solid 2px;
-    border-radius: 10px;
-    padding: 2vw;
-    width: 100%;
-    margin: 0;
- 
-}
 
-.flex {
-    display: flex;
-}
 
-#handshake {
-    position: relative;
-    bottom: 50vw;
-    width: 30vw;
-    border: solid 2px;
-    border-radius: 10px;
-    margin-left: 2vw;
-    float: right;
-}
 
-#philoinfo {
-    position: relative;
-    bottom: 50vw;
-    border: solid 2px;
-    border-radius: 10px;
-    width: 1000%;
-    padding: 2vw;
-    margin: 0;
-}
 
-#randori {
-    position: relative;
-    width: 35%;
-    bottom: 45vw;
-    border: solid 2px;
-    border-radius: 10px;
-    margin-right: 2vw;
-}
 
-#randoriinfo {
-    position: relative;
-    padding: 2vw;
-    bottom: 45vw;
-    border: solid 2px;
-    border-radius: 10px;
-    margin: 0;
-    width: 100%;
-}
+
+
+
+
+
 
 
 /*#footer {
