@@ -46,6 +46,10 @@
     /* p {
         font-size: 500px;
     } */
+
+    #contact-form {
+        
+    }
 }
 
 @media only screen and (max-width: 1280px){
@@ -223,14 +227,16 @@ hr {
     margin-top: 8vw;
 }
 
-.contact-form {
-    width: 80%;
+#contact-form {
+    font-family: "samurai", sans-serif;
+    font-size: 40px;
 }
 
 .divform {
     display: flex;
     justify-content: center;
 }
+
 
 /* .vid-container {
     display: flex;
