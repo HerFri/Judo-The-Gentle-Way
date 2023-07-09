@@ -223,6 +223,15 @@ hr {
     margin-top: 8vw;
 }
 
+.contact-form {
+    width: 80%;
+}
+
+.divform {
+    display: flex;
+    justify-content: center;
+}
+
 /* .vid-container {
     display: flex;
     justify-content: center;
