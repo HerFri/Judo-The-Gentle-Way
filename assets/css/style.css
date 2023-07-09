@@ -48,7 +48,14 @@
     } */
 
     #contact-form {
-        
+
+        width: 10%;
+    }
+
+    .social-media i {
+        font-size: 5%;
+        margin: 1%;
+        padding: 1%;
     }
 }
 
@@ -105,7 +112,9 @@ h1 {
     overflow-x: hidden; 
 } */
 
-
+input {
+    border: 2px solid;
+}
 
 .wrapper {
     display: flex;
@@ -229,18 +238,34 @@ hr {
 
 #contact-form {
     font-family: "samurai", sans-serif;
-    font-size: 40px;
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
 }
 
-.divform {
+/*.divform {
     display: flex;
     justify-content: center;
-}
+} */
 
 #footer {
-
+    height: 50px;
 }
 
+.social-media {
+    text-align: center;
+}
+
+
+.social-media i {
+    font-size: 400%;
+    margin: 1%;
+    padding: 5%;
+}
+
+.social-media > li {
+    display: inline;
+}
 
 /* .vid-container {
     display: flex;
