@@ -38,6 +38,46 @@
         text-align: center;
     } 
 
+    .flex {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .flex2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    } 
+
+
+    #randori {
+        margin-top: 100px;
+        margin-left: 12px;
+    }
+
+    #philoinfo {
+        margin-bottom: 70px;
+    }
+    
+    #handshake {
+        order: 1;
+    }
+
+    #philoinfo {
+        order:2 ;
+    }
+
+    /* #handshake #randori {
+        display: flex;
+        flex-wrap: wrap;
+
+    } */
+
     #blackbelt {
         width: 50%;
     }
@@ -183,6 +223,10 @@ label {
 }
 
 .flex {
+    display: flex;
+}
+
+.flex2 {
     display: flex;
 }
 
