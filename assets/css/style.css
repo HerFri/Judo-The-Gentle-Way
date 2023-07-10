@@ -174,7 +174,7 @@ label {
     margin-top: 2vw;
 }
 
-#jigoinfo {
+.textbox {
     border: solid 2px;
     border-radius: 10px;
     padding: 2vw;
