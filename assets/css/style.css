@@ -143,6 +143,10 @@ input {
     border-radius: 10px;
 }
 
+.aside1 {
+    width: 20%;
+}
+
 select {
     border: 2px solid;
     border-radius: 10px;
@@ -237,6 +241,7 @@ label {
     padding: 2vw;
     width: 100%;
     border-radius: 10px;
+
 }
 
 p { font-family: "shadow", sans-serif;
