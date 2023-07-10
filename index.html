@@ -64,15 +64,15 @@
         <div class="divform">
         <form method="post" action="https://formdump.codeinstitute.net" id="contact-form">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name=full_name placeholder="Your name"><br>
+            <input type="text" id="name" name=full_name placeholder="Your name" required><br>
             <label for="birthdate">Date of Birth:</label><br>
-            <input type="date" id="birthdate" name=birthdate placeholder="Your birthdate"><br>
+            <input type="date" id="birthdate" name=birthdate placeholder="Your birthdate" required><br>
             <label for="region">Region:</label><br>
-            <input type="text" id="region" name=region placeholder="Your region"><br>
+            <input type="text" id="region" name=region placeholder="Your region"><br required>
             <label for="email">E-Mail:</label><br>
-            <input type="email" id="email" name=email placeholder="Your email"><br>
+            <input type="email" id="email" name=email placeholder="Your email" required><br>
             <label for="options">What further information can we provide you?</label><br>
-            <select name="options" id="options">
+            <select name="options" id="options" required>
                 <option value="infojudo">More information about Judo.</option>
                 <option value="infoplace">Help me to find a place to practice Judo.</option>
                 <option value="infoboth">Both options.</option>
