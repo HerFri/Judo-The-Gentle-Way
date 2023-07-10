@@ -46,9 +46,7 @@
         font-size: 500px;
     } */
 
-    label {
-        font-size: 6vw;
-    }
+    
 }
 
 a {
@@ -108,15 +106,10 @@ select {
     border-radius: 10px;
 }
 
-option {
-
-
+label {
+    font-size: 3vw;
 }
 
-
-select {
-    border: 2px solid;
-}
 
 .wrapper {
     display: flex;
@@ -309,5 +302,9 @@ hr {
         margin: 2%;
         float: left;
         width: 25%;
+    }
+
+    label {
+        font-size: 17px;
     }
 }
