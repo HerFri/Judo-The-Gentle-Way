@@ -105,6 +105,17 @@ input {
 
 select {
     border: 2px solid;
+    border-radius: 10px;
+}
+
+option {
+
+
+}
+
+
+select {
+    border: 2px solid;
 }
 
 .wrapper {
