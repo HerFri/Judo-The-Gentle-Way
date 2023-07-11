@@ -3,7 +3,9 @@ Visit the live page [here](https://herfri.github.io/Judo-The-Gentle-Way/)
 
 Judo - The Gentle Way is an informational website providing a short overview of the martial arts of judo, its history and core philosophy. The website aims at presenting judo as a wholesome sport, making guests of the website curious about it and motivating potential starters to try it themselves. Therefore, guests of the website are encouraged to contact the website owner to receive additional information about judo and finding a fitting club in their region.
  
-![mockup](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/assets/images/mockup.PNG?raw=true) 
+![mockup](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/assets/images/mockup.PNG?raw=true)
+
+The mockup image has been generated on [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive)
 
 
 # User Experience
@@ -17,10 +19,18 @@ Judo - The Gentle Way is an informational website providing a short overview of 
 
 # Design
 ## Colors
-For the color theme I chose the colors black(#000000) and white (#FFFFFF) for specific reasons. First, the black font on the white background contrasts very clearly, so there should be no difficulties to read text. This also holds true for the pictures of the black belt and the judo calligraphy in the welcome section, as these are also in black. Moreover, in combination with the black belt image, the white background resembles the color of the 'judogi', which is the term for the white suit people wear when practicing judo. Additionally, the white background resembles the white background of the Japanese flag, which can be observed as a background image in the header section.
+For the color theme I chose the colors black(#000000) and white (#FFFFFF) for specific reasons. First, the black font on the white background contrasts very clearly, so there should be no difficulties to read text. This also holds true for the pictures of the black belt and the judo calligraphy in the welcome section, as these are also in black. Moreover, in combination with the black belt image, the white background represents the color of the 'judogi', which is the term for the white suit people wear when practicing judo. Additionally, the white background represents the white background of the Japanese flag, which can be observed as a background image in the header section.
 
 ![colorpalette](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/assets/images/colorpalette.PNG?raw=true)
 
 The colorpalette above has been generated with [coolors.co](https://coolors.co/user/palettes/64add1736ab1ee000bab1832)
 
 ## Fonts
+As for the fonts, I imported two fonts, namely
+* 'Samurai'-font from [fontget.com](https://www.fontget.com/font/samurai-warrior/)
+* 'Shadow'-font from [Google Fonts](https://fonts.google.com/specimen/Shadows+Into+Light?preview.text=Judo%20is%20one%20of%20the%20most%20practised%20psorts%20in%20ur%20anus&preview.text_type=custom)
+
+The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the header-section, representing the lettering that has been drawn with a brush and black ink, which is typical for Japanese calligraphy. Moreover, it is being used for the li-elements of the navbar and in the contact-form for the labels.
+The 'Shadow'-font has been used for the rest of the text in the body. Its font style resembles handwritten text with black ink.
+
+# Features
