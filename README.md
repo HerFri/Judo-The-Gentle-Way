@@ -4,7 +4,8 @@ Visit the live page [here](https://herfri.github.io/Judo-The-Gentle-Way/)
 Judo - The Gentle Way is an informational website providing a short overview of the martial arts of judo, its history and core philosophy. The website aims at presenting judo as a wholesome sport, making guests of the website curious about it and motivating potential starters to try it themselves. Therefore, guests of the website are encouraged to contact the website owner to receive additional information about judo and finding a fitting club in their region.
  
 ![mockup](assets/images/mockup.jpg)
-
+![japan](assets/images/japan2.jpg)
+![jigoro](assets/images/jigorokano.jpg)
 
 
 # User Experience
