@@ -246,6 +246,10 @@ hr {
     height: 50px;
 }
 
+.push {
+    min-height: 58vh;
+}
+
 .social-media {
     text-align: center;
 }
