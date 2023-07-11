@@ -17,8 +17,10 @@ Judo - The Gentle Way is an informational website providing a short overview of 
 
 # Design
 ## Colors
-For the color theme I chose the colors black(#000000) and white (FFFFFF) for specific reasons. First, the black font on the white background contrasts very clearly, so there should be no difficulties to read text. This also holds true for the pictures of the black belt and the judo calligraphy in the welcome section, as these are also in black. Moreover, in combination with the black belt image, the white background resembles the color of the 'judogi', which is the term for the white suit people wear when practicing judo. Additionally, the white background resembles the white background of the Japanese flag, which can be observed as a background image in the header section.
+For the color theme I chose the colors black(#000000) and white (#FFFFFF) for specific reasons. First, the black font on the white background contrasts very clearly, so there should be no difficulties to read text. This also holds true for the pictures of the black belt and the judo calligraphy in the welcome section, as these are also in black. Moreover, in combination with the black belt image, the white background resembles the color of the 'judogi', which is the term for the white suit people wear when practicing judo. Additionally, the white background resembles the white background of the Japanese flag, which can be observed as a background image in the header section.
 
-![colorpalette]
+![colorpalette](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/assets/images/colorpalette.PNG?raw=true)
 
 The colorpalette above has been generated with [coolors.co](https://coolors.co/user/palettes/64add1736ab1ee000bab1832)
+
+## Fonts
