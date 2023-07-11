@@ -31,6 +31,7 @@ As for the fonts, I imported two fonts, namely
 * 'Shadow'-font from [Google Fonts](https://fonts.google.com/specimen/Shadows+Into+Light?preview.text=Judo%20is%20one%20of%20the%20most%20practised%20psorts%20in%20ur%20anus&preview.text_type=custom)
 
 The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the header-section, representing the lettering that has been drawn with a brush and black ink, which is typical for Japanese calligraphy. Moreover, it is being used for the li-elements of the navbar and in the contact-form for the labels.
+
 The 'Shadow'-font has been used for the rest of the text in the body. Its font style resembles handwritten text with black ink.
 
 # Features
