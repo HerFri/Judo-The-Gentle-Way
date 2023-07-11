@@ -1,3 +1,4 @@
+/* imported fonts here */
 @font-face {
     font-family: "samurai";
     src: url("../fonts/samurai.otf");
@@ -8,6 +9,7 @@
     src: url("../fonts/shadow.ttf");
 }
 
+/* media queries for mobile devices with max-width: 600px here */
 @media only screen and (max-width: 600px){
     #info {
         display: flex;
@@ -74,12 +76,58 @@
     }
 }
 
+/* css rules */
 html {
     scroll-behavior: smooth;
   }
 
 a {
     color:#000000;
+}
+
+p { font-family: "shadow", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+hr {
+    margin-top: 8vw;
+}
+
+.aside1 {
+    width: 15%;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.push {
+    min-height: 58vh;
+}
+
+
+/* header */
+.header {
+    height: 21vw;
+    background-image: url("../backgrounds/japan2.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 #h1head {
@@ -97,55 +145,7 @@ h1 {
     font-family: "samurai", sans-serif;
 }
 
-#navi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4vw;
-    margin-top: 5%;
-}
-
-#navi li {
-    display: inline;
-    margin: 50px;
-    font-family: "samurai", sans-serif;
-}
-
-#navi a {
-    text-decoration: none;
-    color: black;
-}
-
-#navi a:hover {
-    text-decoration: underline;
-}
-
-input {
-    border: 2px solid;
-    border-radius: 10px;
-}
-
-.aside1 {
-    width: 15%;
-}
-
-select {
-    border: 2px solid;
-    border-radius: 10px;
-}
-
-label {
-    font-size: 3vw;
-}
-
-
-.wrapper {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-} 
-
-
+/* images */
 #blackbelt {
     width: 15vw;
 }
@@ -180,6 +180,8 @@ label {
     object-fit: cover;
 }
 
+/* text-boxes */
+
 .textbox {
     border: solid 2px;
     border-radius: 10px;
@@ -205,18 +207,6 @@ label {
     margin-top: 2vw;
 }
 
-.flex {
-    display: flex;
-}
-
-.flex2 {
-    display: flex;
-}
-
-.textcenter {
-    text-align: center;
-}
-
 #info {
     border: 2px solid;
     padding: 2vw;
@@ -225,41 +215,59 @@ label {
 
 }
 
-p { font-family: "shadow", sans-serif;
-    font-weight: bold;
-    font-size: 2vw;
+/* navbar */
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    margin-top: 5%;
 }
 
-.header {
-    height: 21vw;
-    background-image: url("../backgrounds/japan2.jpg");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position-x: center;
+.navi li {
+    display: inline;
+    margin: 50px;
+    font-family: "samurai", sans-serif;
 }
 
-hr {
-    margin-top: 8vw;
+.navi a {
+    text-decoration: none;
+    color: black;
 }
 
+.navi a:hover {
+    text-decoration: underline;
+}
+
+/* contact-form */
 #contact-form {
     font-family: "samurai", sans-serif;
     font-size: 2vw;
     text-align: center;
 }
 
-#footer {
-    height: 50px;
+input {
+    border: 2px solid;
+    border-radius: 10px;
 }
 
-.push {
-    min-height: 58vh;
+select {
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 3vw;
+}
+
+/* footer */
+#footer {
+    height: 50px;
 }
 
 .social-media {
     text-align: center;
 }
-
 
 .social-media i {
     font-size: 400%;
@@ -271,6 +279,8 @@ hr {
     display: inline;
 }
 
+/* media-query rules for mobile devices with max-width: 600px are continued here,
+as these will not be applied when placed at the top. */
 @media only screen and (max-width: 600px){
     .social-media i {
         font-size: 150%;
@@ -287,7 +297,7 @@ hr {
         font-size: 3vw;
     }
 
-    #navi li {
+    .navi li {
         font-size: 7vw;
         margin: 30px;
         margin-left: -15px;
