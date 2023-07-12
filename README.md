@@ -56,7 +56,9 @@ In the header area of the website, the user will find the hero image, which is t
 
 ## Navigation bar
 The navigation bar is located under the hero image and allows by clicking on the title of the respective section navigation to the desired section. By adding the `scroll-behavior: smooth;` CSS rule, smooth scrolling is provided.
-![navbar](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/navbar.PNG?raw=true)
+![navbar1](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/nav1.png?raw=true)
+![navbar2](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/nav2.png?raw=true)
+![navbar3](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/nav3.png?raw=true)
 
 
 ## Welcome section
