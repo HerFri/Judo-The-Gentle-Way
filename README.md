@@ -105,7 +105,10 @@ The icon designs are imported from [Font Awesome](https://fontawesome.com/).
 
 
 # Future features
-As a future feature a service could be implemented that automatically sends a newsletter or other additional informatiob via email to the user, if the option in the contact-form has been submitted to receive additional information.
+As a future feature a service could be implemented that automatically sends a newsletter or other additional information via email to the user, if the option in the contact-form has been submitted to receive additional information.
+
+# Accessibility
+For good accessibility `<arial-label>` and `alt`-attributes have been added to elements like links and images that do not provide sufficient information to support assistive technologies like screenreaders.
 
 # Technologies Used
 Following technologies have been used for building my website:
@@ -156,3 +159,9 @@ Result: Layout and all functions work throughout the tested browsers.
 
 
 ## Testing User Stories
+
+| Expectation                                                                                        | Result                                                                                                                                                                                                                                   |
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| As a user, I want to get to know about judo and its history and core philosophy.                   | As a user, I find sufficient information about judo and its history and core philosophy.                                                                                                                                                 |
+| As a user, I want to find easy understandable and well structured information on the website.      | As a user, I find texts that are easy to understand and the information is very well structured on the website.                                                                                                                          |
+| As a user, I want to find clear navigation that leads me to the different sections of the website. | As a user, I can find the navigation bar very easily that leads me to the different sections of the website. Also, I can identify the hyperlinks in the welcome text, which lead me to the desired section of the website, very easily.  |
