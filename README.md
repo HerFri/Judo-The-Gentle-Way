@@ -173,11 +173,11 @@ Result: Layout and all functions work throughout the tested browsers.
 ## Fixed Bugs
 
 In the Firefox browser one image was stretched in both desktop and mobile view.
-![bug]()
+![bug](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/jigorobug.PNG?raw=true)
 
 I fixed it by setting `width: auto;` and `max-width: 40%,` in the style.css file.
-![fixview]()
-![fixcode]()
+![fixview](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/jigorofix.PNG?raw=true)
+![fixcode](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/codefix.PNG?raw=true)
 
 # Deployment
 
