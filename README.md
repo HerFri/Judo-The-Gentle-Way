@@ -19,7 +19,7 @@ The mockup image has been generated on [https://ui.dev/amiresponsive](https://ui
 
 # Design
 ## Colors
-For the color theme I chose the colors black(#000000) and white (#FFFFFF) for specific reasons. First, the black font on the white background contrasts very clearly, so there should be no difficulties to read text. This also holds true for the pictures of the black belt and the judo calligraphy in the welcome section, as these are also in black. Moreover, in combination with the black belt image, the white background represents the color of the 'judogi', which is the term for the white suit people wear when practicing judo. Additionally, the white background represents the white background of the Japanese flag, which can be observed as a background image in the header section.
+For the color theme I chose the colors black(#000000) and white (#FFFFFF) for specific reasons. First, the black font on the white background contrasts very clearly, so there should be no difficulties to read text. This also holds true for the pictures of the black belt and the judo calligraphy in the welcome section, as these are also in black. Moreover, in combination with the black belt image, the white background represents the color of the 'judogi', which is the term for the white suit people wear when practicing judo. Additionally, the white background flows into each other with the white background of the Japanese flag, which is the hero image in the header section.
 
 ![colorpalette](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/colorpalette.PNG?raw=true)
 
@@ -30,8 +30,12 @@ As for the fonts, I imported two fonts, namely
 * 'Samurai'-font from [fontget.com](https://www.fontget.com/font/samurai-warrior/)
 * 'Shadow'-font from [Google Fonts](https://fonts.google.com/specimen/Shadows+Into+Light?preview.text=Judo%20is%20one%20of%20the%20most%20practised%20psorts%20in%20ur%20anus&preview.text_type=custom)
 
-The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the header-section, representing the lettering that has been drawn with a brush and black ink, which is typical for Japanese calligraphy. Moreover, it is being used for the li-elements of the navbar and in the contact-form for the labels.
+The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the header section, representing the lettering that has been drawn with a brush and black ink, which is typical for Japanese calligraphy. Moreover, it is being used for the li-elements of the navbar and in the contact-form for the labels.
 
 The 'Shadow'-font has been used for the rest of the text in the body. Its font style resembles handwritten text with black ink.
 
 # Features
+## Header with Hero Image
+In the header area of the website, the user will find the hero image, which is the Japanese flag. In the middle of the Japanese flag is the red circle of the sun, on which the headline 'Judo - The Gentle Way' is positioned on.
+
+##Navigation bar
