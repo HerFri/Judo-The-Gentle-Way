@@ -36,6 +36,9 @@ The 'Shadow'-font has been used for the rest of the text in the body. Its font s
 
 # Features
 ## Header with Hero Image
-In the header area of the website, the user will find the hero image, which is the Japanese flag. In the middle of the Japanese flag is the red circle of the sun, on which the headline 'Judo - The Gentle Way' is positioned on.
+In the header area of the website, the user will find the hero image, which is the Japanese flag. In the middle of the Japanese flag is the red circle of the sun, on which the headline and title of the website, 'Judo - The Gentle Way', is positioned on. The hero image can be found on the same position in all pages of the website.
+![heroimage]()
 
-##Navigation bar
+## Navigation bar
+The navigation bar is located under the hero image and allows by clicking on the title of the respective section navigation to the desired section. By adding the `scroll-behavior: smooth;` CSS rule, smooth scrolling is provided.
+![navbar]()
