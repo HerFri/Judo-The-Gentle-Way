@@ -14,7 +14,7 @@ The mockup image has been generated on [https://ui.dev/amiresponsive](https://ui
 * As a user, I want to find easy understandable and well structured information on the website.
 * As a user, I want to find clear navigation that leads me to the different sections of the website
 * As a user, I want to see detailed and well assorted media like pictures or a video that illustrate the way how judo works and how it looks like, when people are practicing judo.
-* As a user, I want to be bale to access the website from different devices like PC, mobile devices and tablets.
+* As a user, I want to be able to access the website from different devices like PC, mobile devices and tablets.
 * As a user, I want to have the opportunity to get in contact with the website owner to receive additional information about judo and where I can practice it.
 
 # Design
