@@ -246,7 +246,9 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; 
+    padding-top: 56.25%;
+    max-width: 50%;
+    margin: auto; 
 }
 
 .responsive-iframe {
