@@ -97,7 +97,7 @@ Once the user has filled in all information correctly and submitted, a new tab w
 For marking the end of a section, all sections are divided by a `<hr>`-element.
 
 ## Footer
-The footer comprises three clickable icons for the social network Facebook, Instagram and YouTube. By clicking the icons, a new tab is opened which leads the user to the respective social network.
+The footer comprises three clickable icons for the social networks Facebook, Instagram and YouTube. By clicking the icons, a new tab is opened which leads the user to the respective social network.
 The icon designs are imported from [Font Awesome](https://fontawesome.com/).
 
 ![footer](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/footer.PNG?raw=true)
@@ -107,7 +107,7 @@ The icon designs are imported from [Font Awesome](https://fontawesome.com/).
 As a future feature a service could be implemented that automatically sends a newsletter or other additional information via email to the user, if the option in the contact-form has been submitted to receive additional information.
 
 # Accessibility
-For good accessibility `<arial-label>` and `alt`-attributes have been added to elements like links and images that do not provide sufficient information to support assistive technologies like screenreaders.
+For good accessibility `<aria-label>` and `alt`-attributes have been added to elements like links and images that do not provide sufficient information to support assistive technologies like screenreaders.
 
 # Technologies Used
 Following technologies have been used for building my website:
