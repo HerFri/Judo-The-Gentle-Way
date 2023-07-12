@@ -25,6 +25,11 @@ For the color theme I chose the colors black(#000000) and white (#FFFFFF) for sp
 
 The colorpalette above has been generated with [coolors.co](https://coolors.co/user/palettes/64add1736ab1ee000bab1832)
 
+For the social network icons in the footer, these colors have been used:
+* Facebook: #2e68cc
+* Instagram: #000000
+* YouTube: #fa0000
+
 ## Fonts
 As for the fonts, I imported two fonts, namely
 * 'Samurai'-font from [fontget.com](https://www.fontget.com/font/samurai-warrior/)
@@ -91,3 +96,53 @@ In the contact section the user will find a contact-form, which can be filled in
 
 Once the user has filled in all information correctly and submitted, a new tab will open, leading the user to a confirmation page that has the same header and footer as the index page. Under the header, the text of the textbox will inform the user that the information have been submitted successfully and that the user will be contacted as soon as possible.
 ![confirmationpage](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/confirmationpage.PNG?raw=true)
+
+## Footer
+The footer comprises three clickable icons for the social network Facebook, Instagram and YouTube. By clicking the icons, a new tab is opened which leads the user to the respective social network.
+The icon designs are imported from [Font Awesome](https://fontawesome.com/).
+
+
+# Future features
+As a future feature a service could be implemented that automatically sends a newsletter or other additional informatiob via email to the user, if the option in the contact-form has been submitted to receive additional information.
+
+# Technologies Used
+Following technologies have been used for building my website:
+
+* HTML
+* CSS
+* JavaScript (one script to import icons from [Font Awesome](https://fontawesome.com/))
+
+# Testing
+## Code Validation
+The website has been tested with the W3C Validator and Jigsaw Validator 
+* The W3C Validator test passed with no errors. [Test here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fherfri.github.io%2FJudo-The-Gentle-Way%2F)
+* The Jigsaw Validator test passed with no errors. [Test here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fherfri.github.io%2FJudo-The-Gentle-Way%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
+
+## Performance Test
+To test the performance of the website the Google Lighthouse test was used and showed good results:
+![googlelighthouseresult]()
+
+## Responsiveness
+To test responsiveness, I used the website [AmIresponsive](https://ui.dev/amiresponsive?url=https://herfri.github.io/Judo-The-Gentle-Way/) that generated the [mockup image](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/mockup.PNG?raw=true) and showed that my website was responsive on different divices.
+Moreover, I used Chrome Developer Tools to simulate viewports of different devices, which showed that my website was fully responsive:
+![galaxyfoldvw]()
+![iphone6vw]()
+![ipadairvw]()
+
+## Browser Testing
+
+I tested the layout and appearance of my website for consistency on different browsers.
+Moreover, I tested if the navigation, all links, form submission and video works on different browser. 
+
+Tested browser: Chrome, Firefox, Safari, Edge
+
+Result: Layout and all functions work throughout the tested browsers.
+
+## Manual Testing
+
+|Feature|Expect|Action|Result|
+|Navbar buttons|When clicked the website scrolls down to the respective section|Clicked on Navbar buttons|Website scrolled down to the respective section|
+|Text Hyperlinks|When clicked the website scrolls down to the respective section|Clicked on hyperlinks|Website scrolled down to the respective section|
+Embedded Video|When play button clicked the video starts to play|Clicked play button of video|Video started to play|
+|Contact-Form input fields|When clicked a textcursor appears and the user can type in information|Clicked input fields|Textcursor appeared, user can type in information|
+|Submit button of contact-form|When input field have been filled in correctly and button is clicked, a new tab opens and leads user to to confirmation page|Clicked submit button after filling in input fields correctly, new tab opens and shows confirmation page|
