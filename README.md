@@ -43,10 +43,10 @@ The website has 4 core sections, namely Welcome section, History Section, Philos
 
 Here are the wireframes, including both the desktop and mobile view for each page:
 
-* [Desktop wireframe of whole page]()
-* [Desktop wireframe of confirmation page]()
-* [Mobile view wireframe of whole page]()
-* [Mobile view wireframe of confirmation]()
+* [Desktop wireframe of index page](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/wireframes/wholepagewf.png?raw=true)
+* [Desktop wireframe of confirmation page](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/wireframes/confirmationwf.png?raw=true)
+* [Mobile view wireframe of index page](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/wireframes/mobilewf.png?raw=true)
+* [Mobile view wireframe of confirmation](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/wireframes/confirmationmobilewf.png?raw=true)
 
 
 # Features
@@ -56,4 +56,8 @@ In the header area of the website, the user will find the hero image, which is t
 
 ## Navigation bar
 The navigation bar is located under the hero image and allows by clicking on the title of the respective section navigation to the desired section. By adding the `scroll-behavior: smooth;` CSS rule, smooth scrolling is provided.
-![navbar]()
+![navbar](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/navbar.PNG?raw=true)
+
+
+## Welcome section
+The welcome section consists of a centered textbox that is surrounded by images of a black belt on the left side and a image of Japanese calligraphy of the term 'judo' on the right side. Under these images are lines of text explaining the meaning of the images. The centered textbox comprises a text which welcomes guests of the website and states the purpose of the website. Morover, the text comprises a short overview about the contents and encourages guests of the website to reach out to the website owner for further information by filling out a contact form.
