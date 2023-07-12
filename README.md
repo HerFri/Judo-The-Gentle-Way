@@ -169,3 +169,53 @@ Result: Layout and all functions work throughout the tested browsers.
 | As a user, I want to be able to access the website from different devices like PC, mobile devices and tablets.                                                                    | As a user, thanks to the responsive design of the website, I am able to access the website with different devices, such as PC, mobile devices and tablets.     |
 | As a user, I want to have the opportunity to get in contact with the website owner to receive additional information about judo and where I can practice it.                      | As a user, I can use the contact-form of the website to contact the website owner for receiving additional information about judo and where I can practice it. |
 |                                                                                                                                                                                   |                                                                                                                                                                |
+
+## Fixed Bugs
+
+In the Firefox browser one image was stretched in both desktop and mobile view.
+![bug]()
+
+I fixed it by setting `width: auto;` and `max-width: 40%,` in the style.css file.
+![fixview]()
+![fixcode]()
+
+# Deployment
+
+This website was deployed via GitHub pages. The steps to do that are as follows:
+1. Go to the GitHub repository and click on 'Settings'.
+2. On the left side click on 'Pages'.
+3. In the 'Build and deployment' section find 'Source', click the dropdown menu and click 'Deploy from a branch'.
+4. Change to main branch.
+5. After saving, the website should go live after some minutes. From now on, after every undertaken Git push, the website will automatically refresh.
+
+The link to the live site is: https://herfri.github.io/Judo-The-Gentle-Way/
+
+To run locally, two options are possible:
+1. In the GitHub repository, click the button 'Code', copy the HTTPS adress (https://github.com/HerFri/Judo-The-Gentle-Way.git) and use git clone followed by the HTTPS adress.
+2. Or: Go to the GitHub repository, click the button 'Code', click 'Download the Zip file'. Once downloaded, extract the Zip file and use in your local IDE.
+
+# Credits
+
+## Contents
+The information provided in the website is taken from [Wikipedia](https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D) and from own knowledge.
+
+## Media
+Images:
+[Black Belt](https://www.freepik.com/premium-vector/black-belt-logo-vector-karate-taekwondo-jiujitsu-judo_36330575.htm)
+[Judo Calligraphy](https://commons.wikimedia.org/wiki/File:Judo.svg)
+[Jigoro Kano](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Jigoro-Kano-BW-4375px.jpg/1200px-Jigoro-Kano-BW-4375px.jpg)
+[Japan Flag](https://www.rawpixel.com/image/396840/free-illustration-vector-japan-flag-japanese-tokyo)
+[Randori](https://www.pexels.com/de-de/foto/menschen-manner-sport-kampf-6765037/)
+[Handshake](https://creativemarket.com/product/14773664-Handshake-respect-and-discipline-with-mma-karate-and-fight-students-shaking-hands-before-a-match-or-combat-sport-in-a-training)
+
+Video:
+[Quick Guide to Judo](https://www.youtube.com/watch?v=pgfKasoI5yc&ab_channel=Judo)
+
+All media was used for educational purposes only.
+
+## Code 
+[Responsive iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+[Smooth Scroll](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1)
+
+# Acknowledgements
+I want to thank the Slack community and the tutors of Code Institute for their very helpful support and valuable criticism!
