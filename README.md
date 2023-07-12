@@ -88,10 +88,10 @@ The philosophy section consists of images next to informational textboxes. The f
 ![philosection1](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philosection.PNG?raw=true)
 ![philosection2](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philosection2.PNG?raw=true)
 Under the previously described elements is an embedded youtube video with a quick guide to judo. Over the video is a short textfield which informs the user that the video is a quick guide to judo.
-![video]()
+![video](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/video.PNG?raw=true)
 
 ## Contact section
-In the contact section the user will find a contact-form, which can be filled in with the personal information and submitted for additional information that the website owner can send to the user afterwards. Note however that the actual information submitted in the form will not be forwarded, as it is not in the scope of this project. The form comprises input types of text, date, email and a <select>-element, to choose up to three options. By adding the <required>-attribute, the user has to fill out the input-elements according to the type and has to choose an option, otherwise, by clicking the submit button at the very bottom, a pop-up will inform the user that some information has been not been filled in correctly or no option has been chosen.
+In the contact section the user will find a contact-form, which can be filled in with the personal information and submitted for additional information that the website owner can send to the user afterwards. Note however that the actual information submitted in the form will not be forwarded, as it is not in the scope of this project. The form comprises input types of text, date, email and a `<select>-element`, to choose up to three options. By adding the `<required>-attribute`, the user has to fill out the input-elements according to the type and has to choose an option, otherwise, by clicking the submit button at the very bottom, a pop-up will inform the user that some information has been not been filled in correctly or no option has been chosen.
 ![contactsection](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/contactform.PNG?raw=true)
 
 Once the user has filled in all information correctly and submitted, a new tab will open, leading the user to a confirmation page that has the same header and footer as the index page. Under the header, the text of the textbox will inform the user that the information have been submitted successfully and that the user will be contacted as soon as possible.
@@ -120,7 +120,7 @@ The website has been tested with the W3C Validator and Jigsaw Validator
 
 ## Performance Test
 To test the performance of the website the Google Lighthouse test was used and showed good results:
-![googlelighthouseresult]()
+![googlelighthouseresult](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/performance.JPG?raw=true)
 
 ## Responsiveness
 To test responsiveness, I used the website [AmIresponsive](https://ui.dev/amiresponsive?url=https://herfri.github.io/Judo-The-Gentle-Way/) that generated the [mockup image](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/mockup.PNG?raw=true) and showed that my website was responsive on different divices.
