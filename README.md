@@ -141,6 +141,7 @@ Result: Layout and all functions work throughout the tested browsers.
 ## Manual Testing
 
 |Feature|Expect|Action|Result|
+|----||----||----||----|
 |Navbar buttons|When clicked the website scrolls down to the respective section|Clicked on Navbar buttons|Website scrolled down to the respective section|
 |Text Hyperlinks|When clicked the website scrolls down to the respective section|Clicked on hyperlinks|Website scrolled down to the respective section|
 Embedded Video|When play button clicked the video starts to play|Clicked play button of video|Video started to play|
