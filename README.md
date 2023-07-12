@@ -34,10 +34,25 @@ The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the
 
 The 'Shadow'-font has been used for the rest of the text in the body. Its font style resembles handwritten text with black ink.
 
+
+# Structure
+## Wireframes
+For the structural planning of my website, I created some wireframes using the wireframe software [Balsamiq](https://balsamiq.com/).
+
+The website has 4 core sections, namely Welcome section, History Section, Philosophy Section and Contact Section. Additionally, the website is linked to a confirmation page, which opens a new tab and leads the user to the conformation page after filling out the textinputs and pressing the submit button of the contact form.
+
+Here are the wireframes, including both the desktop and mobile view for each page:
+
+* [Desktop wireframe of whole page]()
+* [Desktop wireframe of confirmation page]()
+* [Mobile view wireframe of whole page]()
+* [Mobile view wireframe of confirmation]()
+
+
 # Features
 ## Header with Hero Image
 In the header area of the website, the user will find the hero image, which is the Japanese flag. In the middle of the Japanese flag is the red circle of the sun, on which the headline and title of the website, 'Judo - The Gentle Way', is positioned on. The hero image can be found on the same position in all pages of the website.
-![heroimage]()
+![heroimage](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/heroheader.PNG?raw=true)
 
 ## Navigation bar
 The navigation bar is located under the hero image and allows by clicking on the title of the respective section navigation to the desired section. By adding the `scroll-behavior: smooth;` CSS rule, smooth scrolling is provided.
