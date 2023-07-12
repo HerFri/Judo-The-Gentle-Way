@@ -159,7 +159,8 @@ h1 {
     width: 40%;
     margin-right: 2vw;
     border: solid 2px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 #handshake {
