@@ -83,8 +83,8 @@ The history section consists of an image of the founder of judo next to a textbo
 
 ## Philosophy section
 The philosophy section consists of images next to informational textboxes. The first image is aligned on the rigt side, showing shaking hands to illustrate the key value respect in judo. Next to it on the left side is a textbox providing information about the key values and philosophy of judo. Under this textbox, aligned on the left side is a image of fighting judokas, which is the term of people practicing judo. Next to this image, aligned on the right side, is a textbox providing information about the rules of judo fights in tournaments. On smaller screen devices, like mobile phones, these elemements are aligned under each other.
-![philosection1](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philosection.PNG?raw=true)
-![philosection2](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philosection2.PNG?raw=true)
+![philosectionhand](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philohand.PNG?raw=true)
+![philosectionrandori](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philorandori.PNG?raw=true)
 Under the previously described elements is an embedded youtube video with a quick guide to judo. Over the video is a short textfield which informs the user that the video is a quick guide to judo.
 ![video](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/video.PNG?raw=true)
 
@@ -113,6 +113,9 @@ Following technologies have been used for building my website:
 * HTML
 * CSS
 * JavaScript (one script to import icons from [Font Awesome](https://fontawesome.com/))
+* GitHub
+* GitHub Pages
+* Visual Studio Code
 
 # Testing
 ## Code Validation
@@ -126,7 +129,7 @@ To test the performance of the website the Google Lighthouse test was used and s
 
 ## Responsiveness
 To test responsiveness, I used the website [AmIresponsive](https://ui.dev/amiresponsive?url=https://herfri.github.io/Judo-The-Gentle-Way/) that generated the [mockup image](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/mockup.PNG?raw=true) and showed that my website was responsive on different divices.
-Moreover, I used Chrome Developer Tools to simulate viewports of different devices, which showed that my website was fully responsive:
+Moreover, I used Chrome (Version 114.0.5735.199) Developer Tools to simulate viewports of different devices, which showed that my website was fully responsive:
 ![galaxyfoldvw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/galaxyfoldvw.PNG?raw=true)
 ![iphone6vw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/iphone6vw.PNG?raw=true)
 ![ipadairvw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/ipadairvw.PNG?raw=true)
@@ -136,7 +139,7 @@ Moreover, I used Chrome Developer Tools to simulate viewports of different devic
 I tested the layout and appearance of my website for consistency on different browsers.
 Moreover, I tested if the navigation, all links, form submission and video works on different browser. 
 
-Tested browser: Chrome, Firefox, Safari, Edge
+Tested browser: Chrome (Version 114.0.5735.199), Firefox, Safari, Edge
 
 Result: Layout and all functions work throughout the tested browsers.
 
@@ -150,3 +153,6 @@ Result: Layout and all functions work throughout the tested browsers.
 | Contact-Form Input-fields     | When clicked a textcursor appears and user can type in information                                                        | Clicked input fields                                          | Textcursor appeared, user can type in information                  |
 | Submit button of contact-form | When input field have been filled in correctly and button is clicked, a new tab opens and leads user to confirmation page | Clicked submit button after filling in input fields correctly | New tab opens and shows confirmation page                          |
 | Social networks buttons       | When clicked a new tab opens and leads user to respective social networks website                                         | Clicked Social networks buttons                               | New tab opens and leads user to respective Social networks website |
+
+
+## Testing User Stories
