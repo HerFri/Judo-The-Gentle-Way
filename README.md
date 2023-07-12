@@ -77,8 +77,6 @@ The text inside the textbox comprises three <a>
 ![hyperlinkphilosophy](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/hyperlinkphil.PNG?raw=true)
 ![hyperlinkcontact](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/hyperlinkcontact.PNG?raw=true)
 
-For marking the end of a section, all sections are divided by a `<hr>`-element.
-
 ## History section
 The history section consists of an image of the founder of judo next to a textbox including information about the history of judo.
 ![historysection](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/historysection.PNG?raw=true)
@@ -97,9 +95,12 @@ In the contact section the user will find a contact-form, which can be filled in
 Once the user has filled in all information correctly and submitted, a new tab will open, leading the user to a confirmation page that has the same header and footer as the index page. Under the header, the text of the textbox will inform the user that the information have been submitted successfully and that the user will be contacted as soon as possible.
 ![confirmationpage](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/confirmationpage.PNG?raw=true)
 
+For marking the end of a section, all sections are divided by a `<hr>`-element.
+
 ## Footer
 The footer comprises three clickable icons for the social network Facebook, Instagram and YouTube. By clicking the icons, a new tab is opened which leads the user to the respective social network.
 The icon designs are imported from [Font Awesome](https://fontawesome.com/).
+
 ![footer](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/footer.PNG?raw=true)
 
 
