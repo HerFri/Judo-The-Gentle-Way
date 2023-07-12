@@ -30,7 +30,7 @@ As for the fonts, I imported two fonts, namely
 * 'Samurai'-font from [fontget.com](https://www.fontget.com/font/samurai-warrior/)
 * 'Shadow'-font from [Google Fonts](https://fonts.google.com/specimen/Shadows+Into+Light?preview.text=Judo%20is%20one%20of%20the%20most%20practised%20psorts%20in%20ur%20anus&preview.text_type=custom)
 
-The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the header section, representing the lettering that has been drawn with a brush and black ink, which is typical for Japanese calligraphy. Moreover, it is being used for the li-elements of the navbar, the <h1> elements in the sections and in the contact-form for the labels.
+The 'Samurai'-font is being used for the headline 'Judo - The Gentle Way' in the header section, representing the lettering that has been drawn with a brush and black ink, which is typical for Japanese calligraphy. Moreover, it is being used for the li-elements of the navbar, the `<h1>`-elements in the sections and in the contact-form for the labels.
 
 The 'Shadow'-font has been used for the rest of the text in the body. Its font style resembles handwritten text with black ink.
 
@@ -65,27 +65,29 @@ The navigation bar is located under the hero image and allows by clicking on the
 The welcome section consists of a centered textbox that is surrounded by images of a black belt on the left side and a image of Japanese calligraphy of the term 'judo' on the right side. Under these images are lines of text explaining the meaning of the images. The centered textbox comprises a text which welcomes guests of the website and states the purpose of the website. Morover, the text comprises a short overview about the contents and encourages guests of the website to reach out to the website owner for further information by filling out a contact form.
 ![welcomesection](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/welcomesection.PNG?raw=true)
 
-The text inside the textbox comprises three <a>-elements to establish hyperlinks to the different sections below for a quick navigation.
+The text inside the textbox comprises three <a>
+-elements to establish hyperlinks to the different sections below for a quick navigation.
+
 ![hyperlinkhistory](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/hyperlinkhis.PNG?raw=true)
 ![hyperlinkphilosophy](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/hyperlinkphil.PNG?raw=true)
 ![hyperlinkcontact](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/hyperlinkcontact.PNG?raw=true)
 
-For marking the end of a section, all sections are divided by a <hr>-element.
+For marking the end of a section, all sections are divided by a `<hr>`-element.
 
 ## History section
 The history section consists of an image of the founder of judo next to a textbox including information about the history of judo.
-![historysection]()
+![historysection](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/historysection.PNG?raw=true)
 
 ## Philosophy section
 The philosophy section consists of images next to informational textboxes. The first image is aligned on the rigt side, showing shaking hands to illustrate the key value respect in judo. Next to it on the left side is a textbox providing information about the key values and philosophy of judo. Under this textbox, aligned on the left side is a image of fighting judokas, which is the term of people practicing judo. Next to this image, aligned on the right side, is a textbox providing information about the rules of judo fights in tournaments. On smaller screen devices, like mobile phones, these elemements are aligned under each other.
-![philosection1]()
-![philosection2]()
+![philosection1](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philosection.PNG?raw=true)
+![philosection2](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/philosection2.PNG?raw=true)
 Under the previously described elements is an embedded youtube video with a quick guide to judo. Over the video is a short textfield which informs the user that the video is a quick guide to judo.
 ![video]()
 
 ## Contact section
 In the contact section the user will find a contact-form, which can be filled in with the personal information and submitted for additional information that the website owner can send to the user afterwards. Note however that the actual information submitted in the form will not be forwarded, as it is not in the scope of this project. The form comprises input types of text, date, email and a <select>-element, to choose up to three options. By adding the <required>-attribute, the user has to fill out the input-elements according to the type and has to choose an option, otherwise, by clicking the submit button at the very bottom, a pop-up will inform the user that some information has been not been filled in correctly or no option has been chosen.
-![contactsection]()
+![contactsection](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/contactform.PNG?raw=true)
 
 Once the user has filled in all information correctly and submitted, a new tab will open, leading the user to a confirmation page that has the same header and footer as the index page. Under the header, the text of the textbox will inform the user that the information have been submitted successfully and that the user will be contacted as soon as possible.
-![confirmationpage]()
+![confirmationpage](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/confirmationpage.PNG?raw=true)
