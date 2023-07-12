@@ -100,6 +100,7 @@ Once the user has filled in all information correctly and submitted, a new tab w
 ## Footer
 The footer comprises three clickable icons for the social network Facebook, Instagram and YouTube. By clicking the icons, a new tab is opened which leads the user to the respective social network.
 The icon designs are imported from [Font Awesome](https://fontawesome.com/).
+![footer](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/footer.PNG?raw=true)
 
 
 # Future features
