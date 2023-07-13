@@ -133,7 +133,7 @@ To test the performance of the website the Google Lighthouse test was used and s
 To test responsiveness, I used the website [AmIresponsive](https://ui.dev/amiresponsive?url=https://herfri.github.io/Judo-The-Gentle-Way/) that generated the [mockup image](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/mockup.PNG?raw=true) and showed that my website was responsive on different devices.
 Moreover, I used Chrome (Version 114.0.5735.199) Developer Tools to simulate viewports of different devices, which showed that my website was fully responsive:
 ![galaxyfoldvw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/galaxyfoldvw.PNG?raw=true)
-![iphone6vw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/iphone6vw.PNG?raw=true)
+![iphone6vw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/iphonevw.PNG?raw=true)
 ![ipadairvw](https://github.com/HerFri/Judo-The-Gentle-Way/blob/main/readmeimages/ipadairvw.PNG?raw=true)
 
 ## Browser Testing
